@@ -1,0 +1,37 @@
+.MovieCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    width: 400px;
+    height: 500px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 10px;
+    transition: transform 1s ease;
+
+
+   
+
+}
+.MovieCard:hover{
+    transform: scale(1.02);
+}
+
+.timedate{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.movieImage{
+    width: 300px;
+    border-radius: 10px ;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+
+}
